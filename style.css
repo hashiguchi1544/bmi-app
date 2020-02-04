@@ -1,0 +1,66 @@
+/* bmi-app */
+
+::-webkit-input-placeholder { /* WebKit, Blink, Edge */
+  color:#ccc;
+}
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+ color:#ccc;
+}
+::placeholder{ /* Others */
+color:#ccc
+}
+
+h1{
+  text-align: center;
+}
+
+#bmi-app{
+  width:300px;
+  margin: 0 auto;
+}
+
+
+.weight-box{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.height-box{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.input {
+  width: 180px;
+  height: 40px;
+  font-size: 18px;
+  background-color: #fffffa;
+  box-sizing: border-box;
+}
+
+
+
+#keisanBtn{
+  display: block;
+  text-align: center;
+  width: 98%;
+  margin-top: 50px;
+  background-color: #f2f2f2;
+  margin-left: 5px;
+  margin-bottom: 50px;
+  color: #333;
+  font-size: 20px;
+  box-sizing: border-box;
+  border: 1px solid #333;
+}
+
+#keisanBtn:hover{
+  cursor: pointer;
+  opacity: 0.5;
+}
+
+.output-box{
+  width: 100%;
+}

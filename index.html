@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0">
+  <title>BMI 計算サイト。あなたの体型をチャック！</title>
+  <meta name="keywords" content="BMI, 適性体重, 計算, 肥満">
+  <meta name="description" content="BMIの計算ができるサイトです。適性体重や肥満度がわかります。">
+  <link rel="stylesheet"  type="text/css" href="style.css">
+  </head>
+  <body>
+    <h1>あなたの体型をチェック！</h1>
+    <hr>
+
+    <div id="bmi-app">
+      <div class="weight-box">
+        <p>体重（kg）：</p>
+        <input type="text" id="weight" class="input" placeholder="例： 60">
+      </div>
+
+      <div class="height-box">
+        <p>身長（cm）：</p>
+        <input type="text"id="height" class="input" placeholder="例： 170">
+      </div>
+
+
+      <div id="keisanBtn">計算</div>
+
+      <div class="output-box">
+        <p id="output">ここにあなたのBMIが表示されます。</p>
+      </div>
+    </div>
+
+
+    <script src="js/jquery-3.4.1.min.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>
